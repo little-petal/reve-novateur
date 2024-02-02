@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Compétence 1",
+    "description": "Description de la compétence 1",
+    "icon": null
+  },
+  {
+    "id": 2,
+    "name": "Compétence 2",
+    "description": "Description de la compétence 2",
+    "icon": null
+  },
+  {
+    "id": 3,
+    "name": "Compétence 3",
+    "description": "Description de la compétence 3",
+    "icon": null
+  },
+  {
+    "id": 4,
+    "name": "Compétence 4",
+    "description": "Description de la compétence 4",
+    "icon": null
+  },
+  {
+    "id": 5,
+    "name": "Compétence 5",
+    "description": "Description de la compétence 5",
+    "icon": null
+  }
+]

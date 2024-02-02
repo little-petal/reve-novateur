@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Grange Fleury",
+    "localisation": "Féternes Flon (74)",
+    "description": "Rénovation thermique d'une grange",
+    "architect": "NbO - Nelly Guyot",
+    "cost": "450 k€",
+    "status": "Terminé",
+    "year": null,
+    "type": [ "Economie", "MoE Etude et exécution", "Gros œuvre et TCE"],
+    "images": [""]
+  },
+  {
+    "id": 2,
+    "title": "Chalets à Saint-Jean-de-Sixt",
+    "localisation": "Saint Jean de Sixt (74)",
+    "description": "Construction de deux chalets",
+    "architect": "Cabinet M Architecte",
+    "cost": "800 k€",
+    "status": "Terminé",
+    "year": null,
+    "type": [ "Economie", "MoE Etude et exécution", "Gros œuvre et TCE"],
+    "images": ["/assets/images/projects/20220309_100827.jpg"]
+  },
+  {
+    "id": 3,
+    "title": "Chalet Demi-Quartier",
+    "localisation": "Demi-Quartier (74)",
+    "description": "Construction d'un chalet",
+    "architect": "Brodbeck Roulet",
+    "cost": "11 M€",
+    "status": "Terminé",
+    "year": null,
+    "type": [ "Economie", "MoE Etude et exécution", "Lots - Démolition - terrassement - Gros oeuvre - Charpente"],
+    "images": ["/assets/images/projects/20220328_154018.jpg"]
+  },
+  {
+    "id": 4,
+    "title": "Construction bois-paille - Maison passive 140 m²",
+    "localisation": "Breurey-lès-Faverney (71)",
+    "description": "Construction bois-paille d'une maison passive de 140m²",
+    "architect": "Sans architecte",
+    "cost": null,
+    "status": "Terminé",
+    "year": null,
+    "type": [ "Suivi - Terrassement et Dallage", "Réalisation Charpente - toiture - isolation paille", "Suivi - TCE"],
+    "images": ["/assets/images/projects/71693510_2334398653487933_3944377817231261696_n.jpg"]
+  },
+  {
+    "id": 5,
+    "title": "Rénovation esthétique - Appartement 75m²",
+    "localisation": "Saint-Jeoire (74)",
+    "description": "Rénovation esthétique d'un appartement 75m²",
+    "architect": "Sans architecte",
+    "cost": "40 k€",
+    "status": "Terminé",
+    "year": null,
+    "type": [ "Conception réalisation"],
+    "images": ["/assets/images/projects/20220621_091014.jpg"]
+  },
+  {
+    "id": 6,
+    "title": "Rénovation thermique - Appartement 45m² - Blandan Meloce",
+    "localisation": "Lyon (69)",
+    "description": "Rénovation thermique d'un appartement 45m²",
+    "architect": "Sans architecte",
+    "cost": "140 k€",
+    "status": "En cours",
+    "year": null,
+    "type": [ "AMO", "Economie", "MoE Etude et exécution - Réfection de l'intérieur"],
+    "images": [""]
+  },
+  {
+    "id": 7,
+    "title": "Rénovation thermique - Maison pavillonnaire - Chemin du Panorama",
+    "localisation": "Caluire-et-Cuire (69)",
+    "description": "Rénovation thermique d'une maison pavillonnaire",
+    "architect": "Sans architecte",
+    "cost": "160 k€",
+    "status": "En cours",
+    "year": null,
+    "type": [ "AMO", "Economie", "MoE Etude et exécution  ITE + toiture"],
+    "images": [""]
+  },
+  {
+    "id": 8,
+    "title": "Rénovation thermique - Maison de 100 m²",
+    "localisation": "Rochepaule (07)",
+    "description": "Rénovation thermique d'une maison de 100m²",
+    "architect": "Sans architecte",
+    "cost": "140 k€",
+    "status": "En cours",
+    "year": null,
+    "type": [ "Conception réalisation - Etanchéité de toiture terrasse + MeX + Corps d'états architecturaux"],
+    "images": ["/assets/images/projects/20220403_094544.jpg"]
+  }
+]
