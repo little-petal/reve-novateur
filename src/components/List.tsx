@@ -17,8 +17,7 @@ interface Props {
 
 export function List({skills}: Props) {
   return (
-    <div className="w-full">
-      <Timeline>
+      <Timeline className="lg:place-items-end xl:place-items-center">
         {skills.map((skill) => (
           <TimelineItem key={skill.id}>
             {(skill.id != skills.length) && <TimelineConnector />}
@@ -37,6 +36,5 @@ export function List({skills}: Props) {
         )
         )}
       </Timeline>
-    </div>
   );
 }
