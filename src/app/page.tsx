@@ -31,11 +31,11 @@ export default async function Home() {
       <section id="nav-skills" className="h-fit lg:h-full flex flex-col bg-bluegray snap-always snap-start">
         <div className="h-16 lg:h-[10%]"></div>
         <div className="h-min lg:h-[90%] p6 relative">
-          <div className="absolute bg-white/20 z-10 mt-16 p-2 md:p-6">
+          <div className="absolute bg-white/20 z-10 mt-6 lg:mt-16 p-2 md:p-6">
             <p className="font-bebas text-white text-3xl md:text-4xl lg:text-5xl p-2">Compétences</p>
             <p className="font-inter text-white text-xl md:text-xl lg:text-2xl p-2">Tout voir</p>
           </div>
-          <div className="lg:absolute inset-20 mt-52 lg:inset-0 grid grid-cols-1 grid-rows-3 lg:grid-cols-6 lg:grid-rows-5 p-6 gap-6">
+          <div className="lg:absolute inset-0 mt-0 grid grid-cols-1 grid-rows-3 lg:grid-cols-6 lg:grid-rows-5 p-6 gap-6">
             <div className="w-full h-full row-span-1 lg:col-start-2 lg:col-span-2 lg:row-span-3 flex items-end">
               <List skills={skills} />
             </div>
@@ -58,7 +58,7 @@ export default async function Home() {
       <section id="nav-projects" className="h-screen lg:h-full flex flex-col bg-bluegray relative snap-always snap-end">
         <div className="h-16 lg:h-[10%]"></div>
         <div className="h-full lg:h-[90%] p6 relative">
-          <div className="absolute bg-white/20 z-10 mt-16 p-2 md:p-6">
+          <div className="absolute bg-white/20 z-10 mt-6 lg:mt-16 p-2 md:p-6">
             <p className="font-bebas text-white text-3xl md:text-4xl lg:text-5xl p-2">Réalisations</p>
             <p className="font-inter text-white text-xl md:text-xl lg:text-2xl p-2">Tout voir</p>
           </div>
@@ -70,7 +70,7 @@ export default async function Home() {
       <section id="nav-contact" className="h-screen lg:h-full flex flex-col bg-bluegray snap-always snap-end">
         <div className="h-16 lg:h-[10%]"></div>
         <div className="h-full lg:h-[90%] p6">
-          <div className="absolute bg-white/20 z-10 mt-16 p-2 md:p-6">
+          <div className="absolute bg-white/20 z-10 mt-6 lg:mt-16 p-2 md:p-6">
             <p className="font-bebas text-white text-3xl md:text-4xl lg:text-5xl p-2">Contact</p>
           </div>
         </div>
