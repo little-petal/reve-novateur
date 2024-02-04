@@ -36,17 +36,17 @@ export default async function Home() {
             <p className="font-inter text-white text-xl md:text-xl lg:text-2xl p-2">Tout voir</p>
           </div>
           <div className="lg:absolute inset-20 mt-52 lg:inset-0 grid grid-cols-1 grid-rows-3 lg:grid-cols-6 lg:grid-rows-5 p-6 gap-6">
-            <div className="bg-orange-500 w-full h-full row-span-1 lg:col-start-2 lg:col-span-2 lg:row-span-3 flex items-end">
+            <div className="w-full h-full row-span-1 lg:col-start-2 lg:col-span-2 lg:row-span-3 flex items-end">
               <List skills={skills} />
             </div>
-            <div className="bg-yellow-500 w-full h-full row-span-1 row-start-3 lg:col-span-3 lg:row-span-5">
+            <div className="w-full h-full row-span-1 row-start-3 lg:col-span-3 lg:row-span-5">
               <img
                 src="/assets/images/skills.jpg"
                 alt="image 2"
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="bg-green-500 w-full h-full lg:col-span-3 lg:row-span-2 flex items-center">
+            <div className="bg-white/20 w-full h-full lg:col-span-3 lg:row-span-2 flex items-center">
               <p className="font-inter text-white text-xl md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis rhoncus nibh vitae volutpat. Nam condimentum a massa ut iaculis. Vivamus dictum leo non ipsum semper, ut luctus quam aliquet. Nullam eget suscipit mauris. In eu sodales nibh. Donec mattis eu leo id tempus. Quisque in mollis ex, at semper metus. Aenean sollicitudin mi non ex porttitor, vel tincidunt enim euismod. Quisque convallis porttitor quam, ut accumsan nulla. Quisque vel orci ac nisl maximus condimentum vitae at mauris. </p>
             </div>
           </div>
