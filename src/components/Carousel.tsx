@@ -14,7 +14,7 @@ export function CarouselWithContent({ projects }: Props) {
       {projects.map((project) => (
         <div key={project.id} className="relative h-full w-full">
           <img
-            src={project.images[0]}
+            src={"/assets/images/projects/" + project.images[0]}
             alt={project.title}
             className="h-full w-full object-cover"
           />
