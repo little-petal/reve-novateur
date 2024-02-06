@@ -9,7 +9,7 @@
     "status": "Terminé",
     "year": null,
     "type": [ "Economie", "MoE Etude et exécution", "Gros œuvre et TCE"],
-    "images": [""]
+    "images": ["1/20220328_154018.jpg"]
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "status": "Terminé",
     "year": null,
     "type": [ "Economie", "MoE Etude et exécution", "Gros œuvre et TCE"],
-    "images": ["/assets/images/projects/20220309_100827.jpg"]
+    "images": ["2/20211130_095118.jpg"]
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "status": "Terminé",
     "year": null,
     "type": [ "Economie", "MoE Etude et exécution", "Lots - Démolition - terrassement - Gros oeuvre - Charpente"],
-    "images": ["/assets/images/projects/20220328_154018.jpg"]
+    "images": ["3/20210902_173956.jpg"]
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "status": "Terminé",
     "year": null,
     "type": [ "Suivi - Terrassement et Dallage", "Réalisation Charpente - toiture - isolation paille", "Suivi - TCE"],
-    "images": ["/assets/images/projects/71693510_2334398653487933_3944377817231261696_n.jpg"]
+    "images": ["4/20230804_143421.jpg"]
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "status": "Terminé",
     "year": null,
     "type": [ "Conception réalisation"],
-    "images": ["/assets/images/projects/20220621_091014.jpg"]
+    "images": ["5/20220621_091014.jpg"]
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "status": "En cours",
     "year": null,
     "type": [ "AMO", "Economie", "MoE Etude et exécution - Réfection de l'intérieur"],
-    "images": [""]
+    "images": ["6/IMG-20230915-WA0008.jpg"]
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "status": "En cours",
     "year": null,
     "type": [ "AMO", "Economie", "MoE Etude et exécution  ITE + toiture"],
-    "images": [""]
+    "images": ["7/20240131_Facade Option 1_page-0003.jpg"]
   },
   {
     "id": 8,
@@ -93,6 +93,6 @@
     "status": "En cours",
     "year": null,
     "type": [ "Conception réalisation - Etanchéité de toiture terrasse + MeX + Corps d'états architecturaux"],
-    "images": ["/assets/images/projects/20220403_094544.jpg"]
+    "images": ["8/FB_IMG_1646747313280.jpg"]
   }
 ]

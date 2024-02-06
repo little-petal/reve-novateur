@@ -1,32 +1,38 @@
 [
   {
     "id": 1,
-    "name": "Compétence 1",
-    "description": "Description de la compétence 1",
+    "name": "Assistance Maîtrise d'ouvrage",
+    "description": "Nous travaillons pour conceptualiser votre projet et le structurer dans le cadre normatif actuel. Pour cela, nous avons le process pour vous permettre de questionner votre projet sur les plans financier, assurantiel, technique et esthétique. Étude de faisabilité du projet.<br />Définition du budget<br />Accompagnement pour les demandes d'aides au financement (Prim Rénov / Prim CEE / Financement privés)<br />Accompagnement dans les démarches administratives<br />Choix des solutions techniques",
     "icon": null
   },
   {
     "id": 2,
-    "name": "Compétence 2",
-    "description": "Description de la compétence 2",
+    "name": "Maîtrise d'oeuvre - CES / Isolation / Etanchéité",
+    "description": "Nous avons la compétence de réaliser les phases études de votre projet pour la réalisation des dossiers de consultation pour les lots des corps d'états secondaires.<br />Définition des solutions techniques en conformité avec les réglementations<br />Réalisation des dessins techniques des complexes et des raccords<br />Comptabilisation des quantitatifs ou des bordereaux<br />Consultation des entreprise<br />Analyse des offres<br />Contrat d'engagements<br />Direction des travaux",
     "icon": null
   },
   {
     "id": 3,
-    "name": "Compétence 3",
-    "description": "Description de la compétence 3",
+    "name": "Économie de la construction",
+    "description": "Nous réalisons l'ensemble de vos estimatifs de travaux afin de pouvoir avancer dans les phases études en vous aidant à garder le cap financier.<br />Définition des solutions techniques viables financièrement<br />Comptabilisation des quantitatifs ou des bordereaux<br />Contrôle de l'estimatif selon les variations du marché<br />Suivi des indices de la fédération française du bâtiment",
     "icon": null
   },
   {
     "id": 4,
-    "name": "Compétence 4",
-    "description": "Description de la compétence 4",
+    "name": "Maîtrise d'oeuvre en suivi d'exécution",
+    "description": "Nous coordonnons sur le secteur Haute Savoie / Savoie les entreprises de travaux. Nous garantissons ainsi la qualité, la propreté, la rapidité des travaux qui seront réalisés.<br />Compte rendu de chantier<br />Contrôle des réalisations conformément aux normes et aux CCTP<br />Suivi financiers et contrôle de facturation des entreprises<br />Réalisation des dossiers des ouvrages exécutés<br />Ordonnancement - Pilotage - Coordination",
     "icon": null
   },
   {
     "id": 5,
-    "name": "Compétence 5",
-    "description": "Description de la compétence 5",
+    "name": "Audit énergétique",
+    "description": "Pour vous accompagner dans votre projet de rénovation nous proposons un bilan énergétique de votre habitation et accompagnement dans les choix d'un programme de rénovation thermique.<br />Diagnostic de l'existant<br />Réalisation de l'audit énergétique<br />Réalisation du dossier de demande d'aides à la rénovation<br />Proposition d'axes d'améliorations selon des enveloppes budgétaires",
+    "icon": null
+  },
+  {
+    "id": 6,
+    "name": "Désamiantage",
+    "description": "Comme de nombreux projets de rénovation impliquent la complexité du désamiantage, nous avons la capacité d'encadrement technique amiante sous section 3.<br />Réalisation de plans de diagnostics amiante<br />Rédaction de plans de retraits d'amiante<br />Suivi des travaux de désamiantage/démolition",
     "icon": null
   }
 ]
