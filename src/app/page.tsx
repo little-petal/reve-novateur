@@ -161,10 +161,10 @@ export default function Home() {
   }
 
   return (
-    <main className='static lg:h-screen'>
+    <main className='static'>
 
       {/* Page d'accueil */}
-      <section id="nav-landing-page" className='h-screen lg:h-full bg-cover bg-center bg-no-repeat bg-landing-page md:bg-landing-page flex flex-col snap-always snap-start relative'>
+      <section id="nav-landing-page" className='h-screen bg-cover bg-center bg-no-repeat bg-landing-page md:bg-landing-page flex flex-col snap-always snap-start relative'>
         <Header/>
         <div className="flex basis-1/2 items-end justify-center">
         <p className="text-5xl sm:text-6xl md:text-7xl font-bevan text-center">Du rêve à la réalisation.</p>
@@ -175,15 +175,15 @@ export default function Home() {
       </section>
 
       {/* Compétences */}
-      {/* <section id="nav-skills" className="h-fit lg:h-full flex flex-col bg-red-500/50 sm:bg-orange-500/50 md:bg-yellow-500/50 lg:bg-green-500/50 xl:bg-blue-500/50 2xl:bg-purple-500/50 snap-always snap-start"> */}
-      <section id="nav-skills" className="h-fit lg:h-full flex flex-col bg-bluegray snap-always snap-start">
-        <div className="h-16 lg:h-[10%]"></div>
-        <div className="h-min lg:h-[90%] p6 relative">
+      {/* <section id="nav-skills" className="h-fit min-h-screen flex flex-col bg-red-500/50 sm:bg-orange-500/50 md:bg-yellow-500/50 lg:bg-green-500/50 xl:bg-blue-500/50 2xl:bg-purple-500/50 snap-always snap-start"> */}
+      <section id="nav-skills" className="h-fit min-h-screen flex flex-col bg-bluegray snap-always snap-start">
+        <div className="h-24"></div>
+        <div className="h-min p6 relative">
           <div className="absolute bg-white/20 z-10 mt-6 sm:mt-12 lg:mt-16 p-2 md:p-6">
-            <p className="font-bebas text-white text-3xl md:text-4xl lg:text-4xl xl:text-5xl p-2">Compétences</p>
+            <p className="font-bebas text-white text-3xl md:text-4xl lg:text-5xl p-2">Compétences</p>
             {/* <p className="font-inter text-white text-xl md:text-xl lg:text-xl xl:text-2xl p-2">Tout voir</p> */}
           </div>
-          <div className="2xl:absolute inset-0 mt-0 sm:mt-16 2xl:mt-0 grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-2 2xl:grid-cols-6 2xl:grid-rows-5 p-6 gap-6">
+          <div className="inset-0 mt-0 sm:mt-16 2xl:mt-0 grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-2 2xl:grid-cols-6 2xl:grid-rows-5 p-6 gap-6">
             <div className="w-full h-full row-span-1 sm:col-start-2 sm:col-span-1 lg:col-start-2 lg:col-span-1 lg:row-span-2 2xl:col-start-2 2xl:col-span-2 2xl:row-span-3 flex items-end">
               <List skills={skills} />
             </div>
@@ -203,10 +203,9 @@ export default function Home() {
       </section>
 
       {/* Réalisations */}
-      <section id="nav-projects" className="h-screen lg:h-full flex flex-col bg-bluegray relative snap-always snap-end">
-        <div className="h-16 lg:h-[10%]"></div>
-        <div className="h-full lg:h-[90%] p6 relative">
-          <div className="absolute bg-white/20 z-10 mt-6 sm:mt-12 lg:mt-16 p-2 md:p-6">
+      <section id="nav-projects" className="h-screen flex flex-col bg-bluegray relative snap-always snap-end">
+        <div className="h-full p6 relative">
+          <div className="absolute bg-white/20 z-10 mt-28 sm:mt-36 lg:mt-40 p-2 md:p-6">
             <p className="font-bebas text-white text-3xl md:text-4xl lg:text-5xl p-2">Réalisations</p>
             {/* <p className="font-inter text-white text-xl md:text-xl lg:text-2xl p-2">Tout voir</p> */}
           </div>
@@ -215,9 +214,9 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="nav-contact" className="h-screen lg:h-full flex flex-col bg-bluegray snap-always snap-end">
-        <div className="h-16 lg:h-[10%]"></div>
-        <div className="h-full lg:h-[90%] p6">
+      <section id="nav-contact" className="h-screen flex flex-col bg-bluegray snap-always snap-end">
+        <div className="h-24"></div>
+        <div className="h-full p6">
           <div className="absolute bg-white/20 z-10 mt-6 sm:mt-12 lg:mt-16 p-2 md:p-6">
             <p className="font-bebas text-white text-3xl md:text-4xl lg:text-5xl p-2">Contact</p>
           </div>
