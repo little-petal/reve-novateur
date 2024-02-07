@@ -164,7 +164,7 @@ export default function Home() {
     <main className='static'>
 
       {/* Page d'accueil */}
-      <section id="nav-landing-page" className='h-screen bg-cover bg-center bg-no-repeat bg-landing-page md:bg-landing-page flex flex-col snap-always snap-start relative'>
+      <section id="nav-landing-page" className='h-screen bg-cover bg-center bg-no-repeat bg-landing-page md:bg-landing-page flex flex-col snap-always relative'>
         <Header/>
         <div className="flex basis-1/2 items-end justify-center">
         <p className="text-5xl sm:text-6xl md:text-7xl font-bevan text-center">Du rêve à la réalisation.</p>
