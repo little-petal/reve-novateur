@@ -164,7 +164,7 @@ export default function Home() {
     <main className='static'>
 
       {/* Page d'accueil */}
-      <section id="nav-landing-page" className='h-screen bg-cover bg-center bg-no-repeat bg-landing-page md:bg-landing-page flex flex-col relative'>
+      <section id="nav-landing-page" className='h-screen bg-cover bg-center bg-no-repeat bg-landing-page md:bg-landing-page flex flex-col snap-always snap-start relative'>
         <Header/>
         <div className="flex basis-1/2 items-end justify-center">
         <p className="text-5xl sm:text-6xl md:text-7xl font-bevan text-center">Du rêve à la réalisation.</p>
@@ -176,7 +176,7 @@ export default function Home() {
 
       {/* Compétences */}
       {/* <section id="nav-skills" className="h-fit min-h-screen flex flex-col bg-red-500/50 sm:bg-orange-500/50 md:bg-yellow-500/50 lg:bg-green-500/50 xl:bg-blue-500/50 2xl:bg-purple-500/50 snap-always snap-start"> */}
-      <section id="nav-skills" className="h-fit min-h-screen flex flex-col bg-bluegray">
+      <section id="nav-skills" className="h-fit min-h-screen flex flex-col bg-bluegray snap-always snap-start">
         <div className="h-24"></div>
         <div className="h-min p6 relative">
           <div className="absolute bg-white/20 z-10 mt-6 sm:mt-12 lg:mt-16 p-2 md:p-6">
@@ -203,7 +203,7 @@ export default function Home() {
       </section>
 
       {/* Réalisations */}
-      <section id="nav-projects" className="h-screen flex flex-col bg-bluegray relative ">
+      <section id="nav-projects" className="h-screen flex flex-col bg-bluegray relative snap-always snap-end">
         <div className="h-full p6 relative">
           <div className="absolute bg-white/20 z-10 mt-28 sm:mt-36 lg:mt-40 p-2 md:p-6">
             <p className="font-bebas text-white text-3xl md:text-4xl lg:text-5xl p-2">Réalisations</p>
@@ -214,7 +214,7 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section id="nav-contact" className="h-screen flex flex-col bg-bluegray">
+      <section id="nav-contact" className="h-screen flex flex-col bg-bluegray snap-always snap-end">
         <div className="h-24"></div>
         <div className="h-full p6">
           <div className="absolute bg-white/20 z-10 mt-6 sm:mt-12 lg:mt-16 p-2 md:p-6">

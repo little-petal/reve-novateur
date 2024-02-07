@@ -25,7 +25,7 @@ export const Header = () => {
   const navStyles = open ? "p-6 bg-black/70 text-5xl sm:text-7xl text-white absolute h-screen top-0 right-0 lg:block" : "hidden lg:flex lg:text-5xl";
 
   return  (
-    <div className={header ? "fixed z-20 top-0 w-[100%] h-fit sm:h-24 bg-white text-8xl" : "bg-[transparent] text-3xl snap-always snap-start px-6"}>
+    <div className={header ? "fixed z-20 top-0 w-[100%] h-fit sm:h-24 bg-white text-8xl" : "bg-[transparent] text-3xl px-6"}>
       <div className="flex w-[100%] justify-between m-auto p-[5px]">
         <div className="flex basis-1/2 justify-start">
           <img
