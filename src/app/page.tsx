@@ -203,7 +203,7 @@ export default function Home() {
       </section>
 
       {/* Réalisations */}
-      <section id="nav-projects" className="h-screen flex flex-col bg-bluegray relative snap-always snap-end">
+      <section id="nav-projects" className="h-screen flex flex-col bg-bluegray relative snap-always snap-start">
         <div className="h-full p6 relative">
           <div className="absolute bg-white/20 z-10 mt-28 sm:mt-36 lg:mt-40 p-2 md:p-6">
             <p className="font-bebas text-white text-3xl md:text-4xl lg:text-5xl p-2">Réalisations</p>
