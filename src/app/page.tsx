@@ -46,7 +46,7 @@ export default async function Home() {
             {/* <p className="font-inter text-white text-xl md:text-xl lg:text-xl xl:text-2xl p-2">Tout voir</p> */}
           </div>
           <div className="inset-0 grid grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-2 2xl:grid-cols-6 2xl:grid-rows-5 p-6 gap-6">
-            <div className="mt-20 sm:mt-0 2xl:mt-0 w-full h-full row-span-1 sm:col-start-2 sm:col-span-1 lg:col-start-2 lg:col-span-1 lg:row-span-2 2xl:col-start-2 2xl:col-span-2 2xl:row-span-3 flex items-start">
+            <div className="mt-24 sm:mt-0 2xl:mt-0 w-full h-full row-span-1 sm:col-start-2 sm:col-span-1 lg:col-start-2 lg:col-span-1 lg:row-span-2 2xl:col-start-2 2xl:col-span-2 2xl:row-span-3 flex items-start">
               <DefaultAccordion skills={skills} />
             </div>
             <div className="w-full h-full row-span-1 row-start-3 2xl:col-span-3 2xl:row-span-5">
