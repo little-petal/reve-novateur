@@ -16,7 +16,7 @@ export default async function Home() {
   // const [name, setName] = useState('');
   // const [email, setEmail] = useState('');
   // const [message, setMessage] = useState('');
-  
+
   // const onSubmit = (e: FormEvent) => {
   //   e.preventDefault();
   //   console.log("DATA :" + name + email + message);
@@ -29,10 +29,10 @@ export default async function Home() {
       <section id="nav-landing-page" className='h-screen bg-cover bg-center bg-no-repeat bg-landing-page md:bg-landing-page flex flex-col snap-always snap-start relative'>
         <Header/>
         <div className="flex basis-1/2 items-end justify-center">
-        <p className="text-5xl sm:text-6xl md:text-7xl font-bevan text-center">Du rêve à la réalisation.</p>
+        <p className="text-black text-5xl sm:text-6xl md:text-7xl font-bevan text-center">Du rêve à la réalisation.</p>
         </div>
         <div className="flex basis-1/2 flex-col items-center justify-center">
-          <a href="#nav-skills"><i className="fa-solid fa-arrow-down fa-fade fa-2xl md:fa-2xl"></i></a>
+          <a href="#nav-skills"><i className="text-black fa-solid fa-arrow-down fa-fade fa-2xl md:fa-2xl"></i></a>
         </div>
       </section>
 
@@ -95,16 +95,16 @@ export default async function Home() {
               <div className="flex flex-row space-x-4">
                 <img
                 src="/assets/icons/appel.png"
-                alt="Télephone"
+                alt="Téléphone"
                 className="object-scale-down w-[40px]" /> 
-                <p className="self-center text-xl md:text-2xl font-inter">+33 7 83 19 83 57</p>
+                <p className="self-center text-black text-xl md:text-2xl font-inter">+33 7 83 19 83 57</p>
               </div>
               <div className="flex flex-row space-x-4">
                 <img
                 src="/assets/icons/e-mail.png"
                 alt="E-mail"
                 className="object-scale-down w-[40px]" /> 
-                <p className="self-center text-xl md:text-2xl font-inter">jb.lugand@hotmail.fr</p>
+                <p className="self-center text-black text-xl md:text-2xl font-inter">jb.lugand@hotmail.fr</p>
               </div>
               <div className="flex flex-row space-x-4">
                 <img
@@ -112,8 +112,8 @@ export default async function Home() {
                 alt="Adresse"
                 className="object-scale-down w-[40px]" /> 
                 <div className="flex flex-col self-center">
-                  <p className="text-xl md:text-2xl font-inter">288, rue du Faucigny</p>
-                  <p className="text-xl md:text-2xl font-inter">74490 Saint Jeoire</p>
+                  <p className="text-black text-xl md:text-2xl font-inter">288, rue du Faucigny</p>
+                  <p className="text-black text-xl md:text-2xl font-inter">74490 Saint Jeoire</p>
                 </div>
               </div>
             </div>

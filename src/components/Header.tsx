@@ -37,16 +37,16 @@ export const Header = () => {
           <nav className={navStyles}>
             <ul className="flex flex-col lg:flex-row gap-[30px] md:gap-[40px] lg:gap-[20px] lg:space-x-6 mt-32 lg:mt-0">
               <li>
-                <Link className="hover:text-gray-600" href='#nav-landing-page' onClick={() => setOpen(false)}>Accueil</Link>
+                <Link className="text-black hover:text-gray-600" href='#nav-landing-page' onClick={() => setOpen(false)}>Accueil</Link>
               </li>
               <li>
-                <Link className="hover:text-gray-600" href='#nav-skills' onClick={() => setOpen(false)}>Compétences</Link>
+                <Link className="text-black hover:text-gray-600" href='#nav-skills' onClick={() => setOpen(false)}>Compétences</Link>
               </li>
               <li>
-                <Link className="hover:text-gray-600" href='#nav-projects' onClick={() => setOpen(false)}>Réalisations</Link>
+                <Link className="text-black hover:text-gray-600" href='#nav-projects' onClick={() => setOpen(false)}>Réalisations</Link>
               </li>
               <li>
-                <Link className="hover:text-gray-600" href='#nav-contact' onClick={() => setOpen(false)}>Contact</Link>
+                <Link className="text-black hover:text-gray-600" href='#nav-contact' onClick={() => setOpen(false)}>Contact</Link>
               </li>
             </ul>
           </nav>
