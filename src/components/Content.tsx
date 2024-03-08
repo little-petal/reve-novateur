@@ -1,7 +1,7 @@
 'use client'
 
 import { Typography } from "@material-tailwind/react";
-import Link from "next/link";
+// import Link from "next/link";
 
 interface Props {
   number: number,
@@ -32,9 +32,9 @@ export const Content = ({number, id, title }: Props) => {
         </Typography>
       </div>
       <div className="text-white">            
-        <Link href={""}>
+        {/* <Link href={""}>
           Découvrir
-        </Link>
+        </Link> */}
       </div>
     </div>
   )
